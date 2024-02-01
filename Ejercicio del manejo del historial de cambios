@@ -1,0 +1,24 @@
+Ejercicio 1:
+1.> git log  --oneline
+2.> echo Git es un sistema de control de versiones ideado por Linus Torvalds >> capitulo1.txt
+3.> git add capitulo.txt
+4.> git commit -m "Añadido capítulo 1"
+5.> git log
+ 
+Ejercicio 2:
+1.> echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios. >> capitulo2.txt
+2.> git add capitulo2.txt
+3.> git comming --m "Añadido capitulo 2"
+4.> git diff HEAD~2 HEAD
+
+Ejercicio 3:
+1.> echo Git permite la creacion de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas. >> capitulo3.txt
+2.> git add capitulo3.txt
+3.> git comming --m "Añadido capitulo 3"
+4.> git diff HEAD capitulo3.txt
+
+Ejercicio 4:
+1.> echo Capitulo 5: Conceptos avanzados >> indice.txt
+2.> git add indice.txt
+3.> git commit --m "Añadido capitulo 5 al indice.".
+4.> git blame indice.txt
